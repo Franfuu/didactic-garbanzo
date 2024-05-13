@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a39010fa-5a38-4783-ae17-d9aa79cd0d1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DidacticGarbanzo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Distancia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DistanciaCrane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DistanciaEuclídea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DistanciaManhattan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnvioNoDisponibleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Punto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Transportista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TransportistaCarteros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TransportistaSeul.java" afterDir="false" />
-    </list>
+    <list default="true" id="a39010fa-5a38-4783-ae17-d9aa79cd0d1a" name="Changes" comment="Santi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Santi",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,8 +55,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715615278541</updated>
-      <workItem from="1715615279594" duration="2436000" />
+      <workItem from="1715615279594" duration="2802000" />
     </task>
+    <task id="LOCAL-00001" summary="Santi">
+      <option name="closed" value="true" />
+      <created>1715629713518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715629713518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,10 +76,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Santi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Santi" />
   </component>
 </project>
