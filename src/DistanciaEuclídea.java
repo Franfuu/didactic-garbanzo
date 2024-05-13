@@ -1,9 +1,9 @@
-class DistanciaEuclidiana extends Distancia {
-    public DistanciaEuclidiana() {
+public class DistanciaEuclídea extends Distancia {
+    public DistanciaEuclídea() {
     }
 
     // Constructor
-    public DistanciaEuclidiana(double origen_x, double origen_y, double destino_x, double destino_y) {
+    public DistanciaEuclídea(double origen_x, double origen_y, double destino_x, double destino_y) {
         super(origen_x, origen_y, destino_x, destino_y);
     }
 
@@ -20,7 +20,7 @@ class DistanciaEuclidiana extends Distancia {
         double destino_x = 3;
         double destino_y = 4;
 
-        DistanciaEuclidiana distanciaEuclidiana = new DistanciaEuclidiana(origen_x, origen_y, destino_x, destino_y);
+        DistanciaEuclídea distanciaEuclidiana = new DistanciaEuclídea(origen_x, origen_y, destino_x, destino_y);
         double distancia = distanciaEuclidiana.calcularDistancia(origen_x, origen_y, destino_x, destino_y);
         System.out.println("La distancia euclidiana entre los puntos es: " + distancia);
     }
