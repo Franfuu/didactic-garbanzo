@@ -7,8 +7,14 @@ public class TransportistaSeul extends Transportista {
     public TransportistaSeul() {
         super("Seul", "naranja", new DistanciaEuclidea());
     }
-
-    // Método para calcular el costo del envío, con un peso específico
+    //TODO Rellenar documentación
+    /**
+     * Calcula el coste del envío dado el origen, el destino y el peso
+     * @param origen
+     * @param destino
+     * @param peso
+     * @return
+     */
     @Override
     public double presupuestar(Punto origen, Punto destino, double peso) {
         double distancia = medida.medir(origen.getX(), origen.getY(), destino.getX(), destino.getY());
