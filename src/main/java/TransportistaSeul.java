@@ -5,7 +5,7 @@ public class TransportistaSeul extends Transportista {
 
     // Constructor
     public TransportistaSeul() {
-        super("Seul", "naranja", new DistanciaEuclidiana());
+        super("Seul", "naranja", new DistanciaEuclidea());
     }
 
     // Método para calcular el costo del envío, con un peso específico
