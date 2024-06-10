@@ -3,7 +3,7 @@ name: Tests automáticos en rama personal
 on:
   push:
     branches:
-      - 'Santi/*' 
+      - 'Santi'
 
 jobs:
   test:

@@ -1,19 +1,17 @@
-
-
-// Clase TransportistaSeul que hereda de Transportista
+/**
+ * La clase transportistaSeul adminstra los envios y calcula los precios de los envios
+ * @author Santiago Garcia Ruiz
+ */
 public class TransportistaSeul extends Transportista {
-
-    // Constructor
     public TransportistaSeul() {
         super("Seul", "naranja", new DistanciaEuclidea());
     }
-    //TODO Rellenar documentación
     /**
      * Calcula el coste del envío dado el origen, el destino y el peso
-     * @param origen
-     * @param destino
-     * @param peso
-     * @return
+     * @param origen punto de origen
+     * @param destino punto de destino
+     * @param peso peso del producto
+     * @return coste de envio
      */
     @Override
     public double presupuestar(Punto origen, Punto destino, double peso) {
@@ -27,7 +25,6 @@ public class TransportistaSeul extends Transportista {
         }
     }
 
-    // Método principal para probar la clase
     public static void main(String[] args) {
         TransportistaSeul transportistaSeul = new TransportistaSeul();
 
